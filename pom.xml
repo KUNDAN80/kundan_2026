@@ -21,6 +21,14 @@
 
   
     <dependencies>
+    
+    <dependency>
+  <groupId>org.projectlombok</groupId>
+  <artifactId>lombok</artifactId>
+  <version>1.18.30</version> <!-- or latest -->
+  <scope>provided</scope>
+</dependency>
+
       <dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
@@ -107,6 +115,19 @@
 				</configuration>
 			</plugin>
 
+<plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-compiler-plugin</artifactId>
+      <version>3.8.1</version>
+      <configuration>
+        <compilerArgs>
+          <arg>--add-exports</arg>
+          <arg>jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED</arg>
+        </compilerArgs>
+        <source>17</source> <!-- or your actual Java version -->
+        <target>17</target>
+      </configuration>
+    </plugin>
 
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
