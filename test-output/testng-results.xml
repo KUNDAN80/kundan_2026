@@ -1,304 +1,177 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="26" passed="26" failed="0" skipped="0">
+<testng-results ignored="0" total="17" passed="0" failed="0" skipped="17">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-18T08:54:36 IST" name="Opencart App Test Regression Suite" finished-at="2026-01-18T08:54:56 IST" duration-ms="19990">
+  <suite started-at="2026-02-02T10:05:57 IST" name="Opencart App Test Regression Suite" finished-at="2026-02-02T10:08:01 IST" duration-ms="124306">
     <groups>
     </groups>
-    <test started-at="2026-01-18T08:54:36 IST" name="Login Page Test" finished-at="2026-01-18T08:54:45 IST" duration-ms="8741">
-      <class name="com.qa.opencart.tests.LoginPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@2b2954e1]" started-at="2026-01-18T08:54:36 IST" name="setup" finished-at="2026-01-18T08:54:42 IST" duration-ms="5881" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="forgotPwdLinkExistTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@2b2954e1]" started-at="2026-01-18T08:54:42 IST" name="forgotPwdLinkExistTest" finished-at="2026-01-18T08:54:43 IST" duration-ms="303" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forgotPwdLinkExistTest -->
-        <test-method signature="loginPageTitleTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@2b2954e1]" started-at="2026-01-18T08:54:43 IST" name="loginPageTitleTest" finished-at="2026-01-18T08:54:43 IST" duration-ms="35" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPageTitleTest -->
-        <test-method signature="loginPageURLTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@2b2954e1]" started-at="2026-01-18T08:54:43 IST" name="loginPageURLTest" finished-at="2026-01-18T08:54:43 IST" duration-ms="20" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPageURLTest -->
-        <test-method signature="logoExistTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@2b2954e1]" started-at="2026-01-18T08:54:43 IST" name="logoExistTest" finished-at="2026-01-18T08:54:43 IST" duration-ms="31" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoExistTest -->
-        <test-method signature="loginTest()[pri:2147483647, instance:com.qa.opencart.tests.LoginPageTest@2b2954e1]" started-at="2026-01-18T08:54:43 IST" name="loginTest" finished-at="2026-01-18T08:54:44 IST" duration-ms="1202" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@2b2954e1]" started-at="2026-01-18T08:54:44 IST" name="tearDown" finished-at="2026-01-18T08:54:45 IST" duration-ms="726" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.opencart.tests.LoginPageTest -->
-    </test> <!-- Login Page Test -->
-    <test started-at="2026-01-18T08:54:36 IST" name="Register Page Test" finished-at="2026-01-18T08:54:54 IST" duration-ms="17341">
-      <class name="com.qa.opencart.tests.RegisterPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.opencart.tests.RegisterPageTest@37e69c43]" started-at="2026-01-18T08:54:36 IST" name="setup" finished-at="2026-01-18T08:54:43 IST" duration-ms="6106" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="regSetup()[pri:0, instance:com.qa.opencart.tests.RegisterPageTest@37e69c43]" started-at="2026-01-18T08:54:43 IST" name="regSetup" finished-at="2026-01-18T08:54:44 IST" duration-ms="1190" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- regSetup -->
-        <test-method signature="userRegisterTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.tests.RegisterPageTest@37e69c43]" started-at="2026-01-18T08:54:46 IST" name="userRegisterTest" data-provider="getRegData" finished-at="2026-01-18T08:54:50 IST" duration-ms="3671" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[veena]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[automation]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[8.585858585E9]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[veena@123]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[yes]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userRegisterTest -->
-        <test-method signature="userRegisterTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.tests.RegisterPageTest@37e69c43]" started-at="2026-01-18T08:54:50 IST" name="userRegisterTest" data-provider="getRegData" finished-at="2026-01-18T08:54:53 IST" duration-ms="3431" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ravi]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[api]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[6.767676767E9]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[ravi@123]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[no]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userRegisterTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.RegisterPageTest@37e69c43]" started-at="2026-01-18T08:54:53 IST" name="tearDown" finished-at="2026-01-18T08:54:54 IST" duration-ms="496" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.opencart.tests.RegisterPageTest -->
-    </test> <!-- Register Page Test -->
-    <test started-at="2026-01-18T08:54:36 IST" name="ProductInfo Page Test" finished-at="2026-01-18T08:54:55 IST" duration-ms="18805">
-      <class name="com.qa.opencart.tests.ProductInfoPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.opencart.tests.ProductInfoPageTest@74f827ad]" started-at="2026-01-18T08:54:36 IST" name="setup" finished-at="2026-01-18T08:54:42 IST" duration-ms="6007" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="productInfoSetup()[pri:0, instance:com.qa.opencart.tests.ProductInfoPageTest@74f827ad]" started-at="2026-01-18T08:54:42 IST" name="productInfoSetup" finished-at="2026-01-18T08:54:43 IST" duration-ms="664" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productInfoSetup -->
-        <test-method signature="productHeaderTest()[pri:0, instance:com.qa.opencart.tests.ProductInfoPageTest@74f827ad]" started-at="2026-01-18T08:54:43 IST" name="productHeaderTest" finished-at="2026-01-18T08:54:46 IST" duration-ms="2802" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productHeaderTest -->
-        <test-method signature="productImagesCountTest(java.lang.String,java.lang.String,int)[pri:0, instance:com.qa.opencart.tests.ProductInfoPageTest@74f827ad]" started-at="2026-01-18T08:54:46 IST" name="productImagesCountTest" data-provider="getProductImagesCountData" finished-at="2026-01-18T08:54:48 IST" duration-ms="1198" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[macbook]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[MacBook Pro]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productImagesCountTest -->
-        <test-method signature="productImagesCountTest(java.lang.String,java.lang.String,int)[pri:0, instance:com.qa.opencart.tests.ProductInfoPageTest@74f827ad]" started-at="2026-01-18T08:54:48 IST" name="productImagesCountTest" data-provider="getProductImagesCountData" finished-at="2026-01-18T08:54:49 IST" duration-ms="1550" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[imac]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[iMac]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productImagesCountTest -->
-        <test-method signature="productImagesCountTest(java.lang.String,java.lang.String,int)[pri:0, instance:com.qa.opencart.tests.ProductInfoPageTest@74f827ad]" started-at="2026-01-18T08:54:49 IST" name="productImagesCountTest" data-provider="getProductImagesCountData" finished-at="2026-01-18T08:54:50 IST" duration-ms="1291" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Samsung SyncMaster 941BW]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productImagesCountTest -->
-        <test-method signature="productImagesCountTest(java.lang.String,java.lang.String,int)[pri:0, instance:com.qa.opencart.tests.ProductInfoPageTest@74f827ad]" started-at="2026-01-18T08:54:50 IST" name="productImagesCountTest" data-provider="getProductImagesCountData" finished-at="2026-01-18T08:54:52 IST" duration-ms="1400" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Samsung Galaxy Tab 10.1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[7]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productImagesCountTest -->
-        <test-method signature="productImagesCountTest(java.lang.String,java.lang.String,int)[pri:0, instance:com.qa.opencart.tests.ProductInfoPageTest@74f827ad]" started-at="2026-01-18T08:54:52 IST" name="productImagesCountTest" data-provider="getProductImagesCountData" finished-at="2026-01-18T08:54:54 IST" duration-ms="1749" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[canon]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Canon EOS 5D]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productImagesCountTest -->
-        <test-method signature="productInfoTest()[pri:0, instance:com.qa.opencart.tests.ProductInfoPageTest@74f827ad]" started-at="2026-01-18T08:54:54 IST" name="productInfoTest" finished-at="2026-01-18T08:54:55 IST" duration-ms="1397" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productInfoTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.ProductInfoPageTest@74f827ad]" started-at="2026-01-18T08:54:55 IST" name="tearDown" finished-at="2026-01-18T08:54:55 IST" duration-ms="217" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.opencart.tests.ProductInfoPageTest -->
-    </test> <!-- ProductInfo Page Test -->
-    <test started-at="2026-01-18T08:54:36 IST" name="Accounts Page Test" finished-at="2026-01-18T08:54:56 IST" duration-ms="19990">
+    <test started-at="2026-02-02T10:05:57 IST" name="Accounts Page Test" finished-at="2026-02-02T10:05:58 IST" duration-ms="1211">
       <class name="com.qa.opencart.tests.AccountsPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@756aadfc]" started-at="2026-01-18T08:54:36 IST" name="setup" finished-at="2026-01-18T08:54:43 IST" duration-ms="6189" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@630390b9]" started-at="2026-02-02T10:05:57 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1770006957308" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'testname' is required by BeforeTest on method setup but has not been marked @Optional or defined
+in C:\Users\kunda\OneDrive\Desktop\Selen\May2024POMSeries\src\test\resources\testrunners\testng_regression.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'testname' is required by BeforeTest on method setup but has not been marked @Optional or defined
+in C:\Users\kunda\OneDrive\Desktop\Selen\May2024POMSeries\src\test\resources\testrunners\testng_regression.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
+at org.testng.TestRunner.beforeRun(TestRunner.java:633)
+at org.testng.TestRunner.run(TestRunner.java:595)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="accSetup()[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@756aadfc]" started-at="2026-01-18T08:54:43 IST" name="accSetup" finished-at="2026-01-18T08:54:43 IST" duration-ms="593" status="PASS">
+        <test-method is-config="true" signature="accSetup()[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@630390b9]" started-at="2026-02-02T10:05:58 IST" name="accSetup" finished-at="2026-02-02T10:05:58 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accSetup -->
-        <test-method signature="accPageHeadersCountTest()[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@756aadfc]" started-at="2026-01-18T08:54:43 IST" name="accPageHeadersCountTest" finished-at="2026-01-18T08:54:44 IST" duration-ms="739" status="PASS">
+        <test-method signature="accPageHeadersCountTest()[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@630390b9]" started-at="2026-02-02T10:05:58 IST" name="accPageHeadersCountTest" finished-at="2026-02-02T10:05:58 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'testname' is required by BeforeTest on method setup but has not been marked @Optional or defined
+in C:\Users\kunda\OneDrive\Desktop\Selen\May2024POMSeries\src\test\resources\testrunners\testng_regression.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'testname' is required by BeforeTest on method setup but has not been marked @Optional or defined
+in C:\Users\kunda\OneDrive\Desktop\Selen\May2024POMSeries\src\test\resources\testrunners\testng_regression.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
+at org.testng.TestRunner.beforeRun(TestRunner.java:633)
+at org.testng.TestRunner.run(TestRunner.java:595)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accPageHeadersCountTest -->
-        <test-method signature="accPageHeadersTest()[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@756aadfc]" started-at="2026-01-18T08:54:44 IST" name="accPageHeadersTest" finished-at="2026-01-18T08:54:44 IST" duration-ms="204" status="PASS">
+        <test-method signature="accPageHeadersTest()[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@630390b9]" started-at="2026-02-02T10:05:58 IST" name="accPageHeadersTest" finished-at="2026-02-02T10:05:58 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'testname' is required by BeforeTest on method setup but has not been marked @Optional or defined
+in C:\Users\kunda\OneDrive\Desktop\Selen\May2024POMSeries\src\test\resources\testrunners\testng_regression.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'testname' is required by BeforeTest on method setup but has not been marked @Optional or defined
+in C:\Users\kunda\OneDrive\Desktop\Selen\May2024POMSeries\src\test\resources\testrunners\testng_regression.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
+at org.testng.TestRunner.beforeRun(TestRunner.java:633)
+at org.testng.TestRunner.run(TestRunner.java:595)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accPageHeadersTest -->
-        <test-method signature="accPageTitleTest()[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@756aadfc]" started-at="2026-01-18T08:54:44 IST" name="accPageTitleTest" finished-at="2026-01-18T08:54:44 IST" duration-ms="28" status="PASS">
+        <test-method signature="accPageTitleTest()[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@630390b9]" started-at="2026-02-02T10:05:58 IST" name="accPageTitleTest" finished-at="2026-02-02T10:05:58 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'testname' is required by BeforeTest on method setup but has not been marked @Optional or defined
+in C:\Users\kunda\OneDrive\Desktop\Selen\May2024POMSeries\src\test\resources\testrunners\testng_regression.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'testname' is required by BeforeTest on method setup but has not been marked @Optional or defined
+in C:\Users\kunda\OneDrive\Desktop\Selen\May2024POMSeries\src\test\resources\testrunners\testng_regression.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
+at org.testng.TestRunner.beforeRun(TestRunner.java:633)
+at org.testng.TestRunner.run(TestRunner.java:595)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accPageTitleTest -->
-        <test-method signature="isLogoutLinkExistTest()[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@756aadfc]" started-at="2026-01-18T08:54:44 IST" name="isLogoutLinkExistTest" finished-at="2026-01-18T08:54:44 IST" duration-ms="76" status="PASS">
+        <test-method signature="isLogoutLinkExistTest()[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@630390b9]" started-at="2026-02-02T10:05:58 IST" name="isLogoutLinkExistTest" finished-at="2026-02-02T10:05:58 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'testname' is required by BeforeTest on method setup but has not been marked @Optional or defined
+in C:\Users\kunda\OneDrive\Desktop\Selen\May2024POMSeries\src\test\resources\testrunners\testng_regression.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'testname' is required by BeforeTest on method setup but has not been marked @Optional or defined
+in C:\Users\kunda\OneDrive\Desktop\Selen\May2024POMSeries\src\test\resources\testrunners\testng_regression.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
+at org.testng.TestRunner.beforeRun(TestRunner.java:633)
+at org.testng.TestRunner.run(TestRunner.java:595)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isLogoutLinkExistTest -->
-        <test-method signature="searchCountTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@756aadfc]" started-at="2026-01-18T08:54:44 IST" name="searchCountTest" data-provider="getSearchKey" finished-at="2026-01-18T08:54:46 IST" duration-ms="1462" status="PASS">
+        <test-method signature="searchCountTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@630390b9]" started-at="2026-02-02T10:05:58 IST" name="searchCountTest" data-provider="getSearchKey" finished-at="2026-02-02T10:05:58 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -311,10 +184,38 @@
               </value>
             </param>
           </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'testname' is required by BeforeTest on method setup but has not been marked @Optional or defined
+in C:\Users\kunda\OneDrive\Desktop\Selen\May2024POMSeries\src\test\resources\testrunners\testng_regression.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'testname' is required by BeforeTest on method setup but has not been marked @Optional or defined
+in C:\Users\kunda\OneDrive\Desktop\Selen\May2024POMSeries\src\test\resources\testrunners\testng_regression.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
+at org.testng.TestRunner.beforeRun(TestRunner.java:633)
+at org.testng.TestRunner.run(TestRunner.java:595)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchCountTest -->
-        <test-method signature="searchCountTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@756aadfc]" started-at="2026-01-18T08:54:46 IST" name="searchCountTest" data-provider="getSearchKey" finished-at="2026-01-18T08:54:47 IST" duration-ms="909" status="PASS">
+        <test-method signature="searchCountTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@630390b9]" started-at="2026-02-02T10:05:58 IST" name="searchCountTest" data-provider="getSearchKey" finished-at="2026-02-02T10:05:58 IST" duration-ms="1" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -327,10 +228,38 @@
               </value>
             </param>
           </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'testname' is required by BeforeTest on method setup but has not been marked @Optional or defined
+in C:\Users\kunda\OneDrive\Desktop\Selen\May2024POMSeries\src\test\resources\testrunners\testng_regression.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'testname' is required by BeforeTest on method setup but has not been marked @Optional or defined
+in C:\Users\kunda\OneDrive\Desktop\Selen\May2024POMSeries\src\test\resources\testrunners\testng_regression.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
+at org.testng.TestRunner.beforeRun(TestRunner.java:633)
+at org.testng.TestRunner.run(TestRunner.java:595)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchCountTest -->
-        <test-method signature="searchCountTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@756aadfc]" started-at="2026-01-18T08:54:47 IST" name="searchCountTest" data-provider="getSearchKey" finished-at="2026-01-18T08:54:48 IST" duration-ms="977" status="PASS">
+        <test-method signature="searchCountTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@630390b9]" started-at="2026-02-02T10:05:58 IST" name="searchCountTest" data-provider="getSearchKey" finished-at="2026-02-02T10:05:58 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -343,10 +272,38 @@
               </value>
             </param>
           </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'testname' is required by BeforeTest on method setup but has not been marked @Optional or defined
+in C:\Users\kunda\OneDrive\Desktop\Selen\May2024POMSeries\src\test\resources\testrunners\testng_regression.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'testname' is required by BeforeTest on method setup but has not been marked @Optional or defined
+in C:\Users\kunda\OneDrive\Desktop\Selen\May2024POMSeries\src\test\resources\testrunners\testng_regression.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
+at org.testng.TestRunner.beforeRun(TestRunner.java:633)
+at org.testng.TestRunner.run(TestRunner.java:595)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchCountTest -->
-        <test-method signature="searchTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@756aadfc]" started-at="2026-01-18T08:54:48 IST" name="searchTest" data-provider="getSearchData" finished-at="2026-01-18T08:54:50 IST" duration-ms="1974" status="PASS">
+        <test-method signature="searchTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@630390b9]" started-at="2026-02-02T10:05:58 IST" name="searchTest" data-provider="getSearchData" finished-at="2026-02-02T10:05:58 IST" duration-ms="1" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -359,10 +316,38 @@
               </value>
             </param>
           </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'testname' is required by BeforeTest on method setup but has not been marked @Optional or defined
+in C:\Users\kunda\OneDrive\Desktop\Selen\May2024POMSeries\src\test\resources\testrunners\testng_regression.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'testname' is required by BeforeTest on method setup but has not been marked @Optional or defined
+in C:\Users\kunda\OneDrive\Desktop\Selen\May2024POMSeries\src\test\resources\testrunners\testng_regression.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
+at org.testng.TestRunner.beforeRun(TestRunner.java:633)
+at org.testng.TestRunner.run(TestRunner.java:595)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method signature="searchTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@756aadfc]" started-at="2026-01-18T08:54:50 IST" name="searchTest" data-provider="getSearchData" finished-at="2026-01-18T08:54:52 IST" duration-ms="1503" status="PASS">
+        <test-method signature="searchTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@630390b9]" started-at="2026-02-02T10:05:58 IST" name="searchTest" data-provider="getSearchData" finished-at="2026-02-02T10:05:58 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -375,10 +360,38 @@
               </value>
             </param>
           </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'testname' is required by BeforeTest on method setup but has not been marked @Optional or defined
+in C:\Users\kunda\OneDrive\Desktop\Selen\May2024POMSeries\src\test\resources\testrunners\testng_regression.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'testname' is required by BeforeTest on method setup but has not been marked @Optional or defined
+in C:\Users\kunda\OneDrive\Desktop\Selen\May2024POMSeries\src\test\resources\testrunners\testng_regression.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
+at org.testng.TestRunner.beforeRun(TestRunner.java:633)
+at org.testng.TestRunner.run(TestRunner.java:595)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method signature="searchTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@756aadfc]" started-at="2026-01-18T08:54:52 IST" name="searchTest" data-provider="getSearchData" finished-at="2026-01-18T08:54:53 IST" duration-ms="1612" status="PASS">
+        <test-method signature="searchTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@630390b9]" started-at="2026-02-02T10:05:58 IST" name="searchTest" data-provider="getSearchData" finished-at="2026-02-02T10:05:58 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -391,10 +404,38 @@
               </value>
             </param>
           </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'testname' is required by BeforeTest on method setup but has not been marked @Optional or defined
+in C:\Users\kunda\OneDrive\Desktop\Selen\May2024POMSeries\src\test\resources\testrunners\testng_regression.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'testname' is required by BeforeTest on method setup but has not been marked @Optional or defined
+in C:\Users\kunda\OneDrive\Desktop\Selen\May2024POMSeries\src\test\resources\testrunners\testng_regression.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
+at org.testng.TestRunner.beforeRun(TestRunner.java:633)
+at org.testng.TestRunner.run(TestRunner.java:595)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method signature="searchTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@756aadfc]" started-at="2026-01-18T08:54:53 IST" name="searchTest" data-provider="getSearchData" finished-at="2026-01-18T08:54:55 IST" duration-ms="1522" status="PASS">
+        <test-method signature="searchTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@630390b9]" started-at="2026-02-02T10:05:58 IST" name="searchTest" data-provider="getSearchData" finished-at="2026-02-02T10:05:58 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -407,10 +448,38 @@
               </value>
             </param>
           </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'testname' is required by BeforeTest on method setup but has not been marked @Optional or defined
+in C:\Users\kunda\OneDrive\Desktop\Selen\May2024POMSeries\src\test\resources\testrunners\testng_regression.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'testname' is required by BeforeTest on method setup but has not been marked @Optional or defined
+in C:\Users\kunda\OneDrive\Desktop\Selen\May2024POMSeries\src\test\resources\testrunners\testng_regression.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
+at org.testng.TestRunner.beforeRun(TestRunner.java:633)
+at org.testng.TestRunner.run(TestRunner.java:595)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method signature="searchTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@756aadfc]" started-at="2026-01-18T08:54:55 IST" name="searchTest" data-provider="getSearchData" finished-at="2026-01-18T08:54:56 IST" duration-ms="1323" status="PASS">
+        <test-method signature="searchTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@630390b9]" started-at="2026-02-02T10:05:58 IST" name="searchTest" data-provider="getSearchData" finished-at="2026-02-02T10:05:58 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -423,14 +492,385 @@
               </value>
             </param>
           </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'testname' is required by BeforeTest on method setup but has not been marked @Optional or defined
+in C:\Users\kunda\OneDrive\Desktop\Selen\May2024POMSeries\src\test\resources\testrunners\testng_regression.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'testname' is required by BeforeTest on method setup but has not been marked @Optional or defined
+in C:\Users\kunda\OneDrive\Desktop\Selen\May2024POMSeries\src\test\resources\testrunners\testng_regression.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
+at org.testng.TestRunner.beforeRun(TestRunner.java:633)
+at org.testng.TestRunner.run(TestRunner.java:595)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@756aadfc]" started-at="2026-01-18T08:54:56 IST" name="tearDown" finished-at="2026-01-18T08:54:56 IST" duration-ms="173" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@630390b9]" started-at="2026-02-02T10:05:58 IST" name="tearDown" finished-at="2026-02-02T10:05:58 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.opencart.tests.AccountsPageTest -->
     </test> <!-- Accounts Page Test -->
+    <test started-at="2026-02-02T10:05:57 IST" name="Login Page Test" finished-at="2026-02-02T10:08:01 IST" duration-ms="124306">
+      <class name="com.qa.opencart.tests.LoginPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@76e9f00b]" started-at="2026-02-02T10:05:57 IST" name="setup" finished-at="2026-02-02T10:08:01 IST" duration-ms="124018" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[124.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Login Page Test]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: wait: http://172.17.0.2:4444 does not respond in 2m0s 
+Host info: host: 'KUNDAN', ip: '10.124.125.48'
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, browserVersion: 124.0, goog:chromeOptions: {args: [], extensions: []}, selenoid:options: {enableVNC: true, name: Login Page Test, screenResolution: 1280x1024x24}}]}]
+Capabilities {browserName: chrome, browserVersion: 124.0, goog:chromeOptions: {args: [], extensions: []}, selenoid:options: {enableVNC: true, name: Login Page Test, screenResolution: 1280x1024x24}}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: wait: http://172.17.0.2:4444 does not respond in 2m0s 
+Host info: host: 'KUNDAN', ip: '10.124.125.48'
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, browserVersion: 124.0, goog:chromeOptions: {args: [], extensions: []}, selenoid:options: {enableVNC: true, name: Login Page Test, screenResolution: 1280x1024x24}}]}]
+Capabilities {browserName: chrome, browserVersion: 124.0, goog:chromeOptions: {args: [], extensions: []}, selenoid:options: {enableVNC: true, name: Login Page Test, screenResolution: 1280x1024x24}}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:152)
+at com.qa.opencart.factory.DriverFactory.init_remoteDriver(DriverFactory.java:113)
+at com.qa.opencart.factory.DriverFactory.initDriver(DriverFactory.java:63)
+at com.qa.opencart.base.BaseTest.setup(BaseTest.java:50)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
+at org.testng.TestRunner.beforeRun(TestRunner.java:633)
+at org.testng.TestRunner.run(TestRunner.java:595)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="forgotPwdLinkExistTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@76e9f00b]" started-at="2026-02-02T10:08:01 IST" name="forgotPwdLinkExistTest" finished-at="2026-02-02T10:08:01 IST" duration-ms="1" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: wait: http://172.17.0.2:4444 does not respond in 2m0s 
+Host info: host: 'KUNDAN', ip: '10.124.125.48'
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, browserVersion: 124.0, goog:chromeOptions: {args: [], extensions: []}, selenoid:options: {enableVNC: true, name: Login Page Test, screenResolution: 1280x1024x24}}]}]
+Capabilities {browserName: chrome, browserVersion: 124.0, goog:chromeOptions: {args: [], extensions: []}, selenoid:options: {enableVNC: true, name: Login Page Test, screenResolution: 1280x1024x24}}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: wait: http://172.17.0.2:4444 does not respond in 2m0s 
+Host info: host: 'KUNDAN', ip: '10.124.125.48'
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, browserVersion: 124.0, goog:chromeOptions: {args: [], extensions: []}, selenoid:options: {enableVNC: true, name: Login Page Test, screenResolution: 1280x1024x24}}]}]
+Capabilities {browserName: chrome, browserVersion: 124.0, goog:chromeOptions: {args: [], extensions: []}, selenoid:options: {enableVNC: true, name: Login Page Test, screenResolution: 1280x1024x24}}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:152)
+at com.qa.opencart.factory.DriverFactory.init_remoteDriver(DriverFactory.java:113)
+at com.qa.opencart.factory.DriverFactory.initDriver(DriverFactory.java:63)
+at com.qa.opencart.base.BaseTest.setup(BaseTest.java:50)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
+at org.testng.TestRunner.beforeRun(TestRunner.java:633)
+at org.testng.TestRunner.run(TestRunner.java:595)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPwdLinkExistTest -->
+        <test-method signature="loginPageTitleTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@76e9f00b]" started-at="2026-02-02T10:08:01 IST" name="loginPageTitleTest" finished-at="2026-02-02T10:08:01 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: wait: http://172.17.0.2:4444 does not respond in 2m0s 
+Host info: host: 'KUNDAN', ip: '10.124.125.48'
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, browserVersion: 124.0, goog:chromeOptions: {args: [], extensions: []}, selenoid:options: {enableVNC: true, name: Login Page Test, screenResolution: 1280x1024x24}}]}]
+Capabilities {browserName: chrome, browserVersion: 124.0, goog:chromeOptions: {args: [], extensions: []}, selenoid:options: {enableVNC: true, name: Login Page Test, screenResolution: 1280x1024x24}}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: wait: http://172.17.0.2:4444 does not respond in 2m0s 
+Host info: host: 'KUNDAN', ip: '10.124.125.48'
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, browserVersion: 124.0, goog:chromeOptions: {args: [], extensions: []}, selenoid:options: {enableVNC: true, name: Login Page Test, screenResolution: 1280x1024x24}}]}]
+Capabilities {browserName: chrome, browserVersion: 124.0, goog:chromeOptions: {args: [], extensions: []}, selenoid:options: {enableVNC: true, name: Login Page Test, screenResolution: 1280x1024x24}}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:152)
+at com.qa.opencart.factory.DriverFactory.init_remoteDriver(DriverFactory.java:113)
+at com.qa.opencart.factory.DriverFactory.initDriver(DriverFactory.java:63)
+at com.qa.opencart.base.BaseTest.setup(BaseTest.java:50)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
+at org.testng.TestRunner.beforeRun(TestRunner.java:633)
+at org.testng.TestRunner.run(TestRunner.java:595)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method signature="loginPageURLTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@76e9f00b]" started-at="2026-02-02T10:08:01 IST" name="loginPageURLTest" finished-at="2026-02-02T10:08:01 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: wait: http://172.17.0.2:4444 does not respond in 2m0s 
+Host info: host: 'KUNDAN', ip: '10.124.125.48'
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, browserVersion: 124.0, goog:chromeOptions: {args: [], extensions: []}, selenoid:options: {enableVNC: true, name: Login Page Test, screenResolution: 1280x1024x24}}]}]
+Capabilities {browserName: chrome, browserVersion: 124.0, goog:chromeOptions: {args: [], extensions: []}, selenoid:options: {enableVNC: true, name: Login Page Test, screenResolution: 1280x1024x24}}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: wait: http://172.17.0.2:4444 does not respond in 2m0s 
+Host info: host: 'KUNDAN', ip: '10.124.125.48'
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, browserVersion: 124.0, goog:chromeOptions: {args: [], extensions: []}, selenoid:options: {enableVNC: true, name: Login Page Test, screenResolution: 1280x1024x24}}]}]
+Capabilities {browserName: chrome, browserVersion: 124.0, goog:chromeOptions: {args: [], extensions: []}, selenoid:options: {enableVNC: true, name: Login Page Test, screenResolution: 1280x1024x24}}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:152)
+at com.qa.opencart.factory.DriverFactory.init_remoteDriver(DriverFactory.java:113)
+at com.qa.opencart.factory.DriverFactory.initDriver(DriverFactory.java:63)
+at com.qa.opencart.base.BaseTest.setup(BaseTest.java:50)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
+at org.testng.TestRunner.beforeRun(TestRunner.java:633)
+at org.testng.TestRunner.run(TestRunner.java:595)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageURLTest -->
+        <test-method signature="logoExistTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@76e9f00b]" started-at="2026-02-02T10:08:01 IST" name="logoExistTest" finished-at="2026-02-02T10:08:01 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: wait: http://172.17.0.2:4444 does not respond in 2m0s 
+Host info: host: 'KUNDAN', ip: '10.124.125.48'
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, browserVersion: 124.0, goog:chromeOptions: {args: [], extensions: []}, selenoid:options: {enableVNC: true, name: Login Page Test, screenResolution: 1280x1024x24}}]}]
+Capabilities {browserName: chrome, browserVersion: 124.0, goog:chromeOptions: {args: [], extensions: []}, selenoid:options: {enableVNC: true, name: Login Page Test, screenResolution: 1280x1024x24}}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: wait: http://172.17.0.2:4444 does not respond in 2m0s 
+Host info: host: 'KUNDAN', ip: '10.124.125.48'
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, browserVersion: 124.0, goog:chromeOptions: {args: [], extensions: []}, selenoid:options: {enableVNC: true, name: Login Page Test, screenResolution: 1280x1024x24}}]}]
+Capabilities {browserName: chrome, browserVersion: 124.0, goog:chromeOptions: {args: [], extensions: []}, selenoid:options: {enableVNC: true, name: Login Page Test, screenResolution: 1280x1024x24}}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:152)
+at com.qa.opencart.factory.DriverFactory.init_remoteDriver(DriverFactory.java:113)
+at com.qa.opencart.factory.DriverFactory.initDriver(DriverFactory.java:63)
+at com.qa.opencart.base.BaseTest.setup(BaseTest.java:50)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
+at org.testng.TestRunner.beforeRun(TestRunner.java:633)
+at org.testng.TestRunner.run(TestRunner.java:595)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoExistTest -->
+        <test-method signature="loginTest()[pri:2147483647, instance:com.qa.opencart.tests.LoginPageTest@76e9f00b]" started-at="2026-02-02T10:08:01 IST" name="loginTest" finished-at="2026-02-02T10:08:01 IST" duration-ms="1" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: wait: http://172.17.0.2:4444 does not respond in 2m0s 
+Host info: host: 'KUNDAN', ip: '10.124.125.48'
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, browserVersion: 124.0, goog:chromeOptions: {args: [], extensions: []}, selenoid:options: {enableVNC: true, name: Login Page Test, screenResolution: 1280x1024x24}}]}]
+Capabilities {browserName: chrome, browserVersion: 124.0, goog:chromeOptions: {args: [], extensions: []}, selenoid:options: {enableVNC: true, name: Login Page Test, screenResolution: 1280x1024x24}}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: wait: http://172.17.0.2:4444 does not respond in 2m0s 
+Host info: host: 'KUNDAN', ip: '10.124.125.48'
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, browserVersion: 124.0, goog:chromeOptions: {args: [], extensions: []}, selenoid:options: {enableVNC: true, name: Login Page Test, screenResolution: 1280x1024x24}}]}]
+Capabilities {browserName: chrome, browserVersion: 124.0, goog:chromeOptions: {args: [], extensions: []}, selenoid:options: {enableVNC: true, name: Login Page Test, screenResolution: 1280x1024x24}}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:152)
+at com.qa.opencart.factory.DriverFactory.init_remoteDriver(DriverFactory.java:113)
+at com.qa.opencart.factory.DriverFactory.initDriver(DriverFactory.java:63)
+at com.qa.opencart.base.BaseTest.setup(BaseTest.java:50)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
+at org.testng.TestRunner.beforeRun(TestRunner.java:633)
+at org.testng.TestRunner.run(TestRunner.java:595)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@76e9f00b]" started-at="2026-02-02T10:08:01 IST" name="tearDown" finished-at="2026-02-02T10:08:01 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.tests.LoginPageTest -->
+    </test> <!-- Login Page Test -->
   </suite> <!-- Opencart App Test Regression Suite -->
 </testng-results>
